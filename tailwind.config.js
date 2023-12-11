@@ -6,7 +6,14 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily:{
+      roboto:['roboto','sans-serif']
+    },
     extend: {
+      colors:{
+        'customBlue':'#0000e5',
+        'customGreen':'#13ce66'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
