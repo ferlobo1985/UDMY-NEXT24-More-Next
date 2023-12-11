@@ -9,6 +9,10 @@ export default function Home() {
         Card
       </div>
 
+      <div className="someClass">
+        Sasss
+      </div>
+
 
     </div>
   );
