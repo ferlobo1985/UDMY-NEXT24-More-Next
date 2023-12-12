@@ -44,13 +44,13 @@ export default function Nav(){
                     Profile
                 </Link>
             </NavbarItem>
-            <NavbarItem isActive>
+            <NavbarItem >
                 <Link href="/addcar" aria-current="addcar">
                     Add car
                 </Link>
             </NavbarItem>
-            <NavbarItem isActive>
-                <Link href="/aduser" aria-current="aduser">
+            <NavbarItem >
+                <Link href="/adduser" aria-current="aduser">
                     Add user
                 </Link>
             </NavbarItem>
