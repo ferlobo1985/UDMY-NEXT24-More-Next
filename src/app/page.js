@@ -1,14 +1,11 @@
-import Image from 'next/image';
+/// devteachuserdummy
+/// mHL2WDmPFxxuFFwq
+
 
 export default function Home() {
   return (
     <>
-     {/* <img src="/images/image_one.jpg" width="300"/>  */}
-      <Image
-        src="/images/image_one.jpg"
-        alt="Picture of a horse"
-        fill={true}
-      />
+  HOME
     </>
   );
 }
